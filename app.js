@@ -20,7 +20,8 @@ function agregarAmigo() {
         console.log(listaNombre);
         // Crear un nuevo elemento <li>
         let li = document.createElement("li");
-        li.textContent = nuevoNombre; // Asignar el nombre al contenido del <li>
+        // Asignar el nombre al contenido del <li>
+        li.textContent = nuevoNombre; 
         
         // Agregar el <li> al <ul>
         document.getElementById("listaAmigos").appendChild(li);
